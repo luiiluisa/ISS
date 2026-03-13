@@ -1,1 +1,59 @@
 
+FUNCTIONALITATI
+
+-ITERATIA 1:
+
+1. Autentificare utilizator
+   Utilizatorul se poate autentifica in aplicatie ca consumator sau admin. In functie de rol, sistemul va afisa interfata corespunzatoare.
+
+2. Vizualizare produse
+   Consumatorul poate vedea toate hainele disponibile in magazin impreuna cu detalii precum nume, categorie, pret si stock.
+
+
+-ITERATIA 2:
+3. Adaugare produs in cos
+   Consumatorul poate selecta o haina si o poate adauga in cosul de cumparaturi.
+
+4.Vizionarea produselor din cos
+   Consumatorul poate vedea toate hainele adaugate in cos (view cos).
+
+5. Modificare cos
+   Consumatorul poate modifica cantitatea unui produs din cos sau poate elimina un produs din cos.
+
+
+-ITERATIA 3:
+6. Trimitere comanda
+   Consumatorul poate trimite comanda cu produsele din cos. Comanda este trimisa catre admin pentru aprobare.
+
+
+7. Adauga produse in stock
+	Adminul adauga produse in stock: numele, categorie, detalii, pret
+
+8. Administrare comanda 
+   Adminul primeste notificare pentru o comanda noua, poate vizualiza produsele comandate si poate aproba comanda. Dupa aprobare, stock-ul produselor se actualizeaza.
+
+
+VIEW
+
+CONSUMATOR
+
+pagina principala (home):
+	-sus in stanga apare numele utilizatorului
+  	-in centru sunt afisate toate hainele disponibile
+  	-fiecare haina are nume, categorie, pret si buton de adaugare in cos
+  	-sus in dreapta apare iconita cu cosul
+
+pagina cos:
+	-sunt afisate toate hainele adaugate in cos
+	-la fiecare produs exista butoane pentru modificarea cantitatii (+ / -)
+  	-exista optiune de stergere produs din cos
+  	-jos apare pretul total al comenzii
+  	-buton TRIMITE COMANDA
+
+ADMIN
+
+pagina admin:
+ 	-adminul va vedea toate produsele pe care el le-a publicat
+ 	-adminul primeste notificare pentru comanda noua
+  	-adminul poate apasa butonul **APROBA COMANDA**
+  	-dupa aprobare, sistemul: scade stock-ul produselor 
