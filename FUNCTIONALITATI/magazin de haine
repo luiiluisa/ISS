@@ -55,5 +55,5 @@ ADMIN
 pagina admin:
  	-adminul va vedea toate produsele pe care el le-a publicat
  	-adminul primeste notificare pentru comanda noua
-  	-adminul poate apasa butonul **APROBA COMANDA**
+  	-adminul poate apasa butonul APROBA COMANDA
   	-dupa aprobare, sistemul: scade stock-ul produselor 
