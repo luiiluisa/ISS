@@ -1,0 +1,66 @@
+NON-FUNCTIONAL REQUIREMENTS
+
+Performance Requirements
+
+NFR-1: Response Time
+Description: The system should respond to user actions within acceptable time limits.
+Criteria:
+- Page load time: ≤ 2 seconds
+- Login authentication: ≤ 1 second
+- Cart operations: ≤ 1 second
+Priority: High
+
+
+Security Requirements
+
+NFR-2: Authentication
+Description: The system should allow access only to authenticated users.
+Criteria:
+- Users must log in with username and password
+- Access is based on role (consumer/admin)
+Priority: High
+
+NFR-3: Data Protection
+Description: The system should protect user data.
+Criteria:
+- Passwords are stored securely
+- Users can access only their own data
+Priority: High
+
+
+Reliability Requirements
+
+NFR-4: System Reliability
+Description: The system should function correctly without errors.
+Criteria:
+- No data loss during operations
+- Errors are handled properly
+Priority: High
+
+
+Data Integrity Requirements
+
+NFR-5: Data Consistency
+Description: The system must maintain consistent data.
+Criteria:
+- Stock updates correctly after orders
+- No invalid values allowed
+Priority: High
+
+
+Scalability Requirements
+
+NFR-6: Concurrent Users
+Description: The system should support multiple users.
+Criteria:
+- At least 20 users simultaneously
+Priority: Medium
+
+
+Availability Requirements
+
+NFR-7: System Availability
+Description: The system should be available at all times.
+Criteria:
+- Minimal downtime
+Priority: High
