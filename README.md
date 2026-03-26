@@ -1,17 +1,24 @@
-# magazin-de-haine-online
+# Online Clothing Store
 
-## Funcționalități
+This project represents an online clothing store application where users can browse products, add them to a cart, and place orders. The system also includes an admin role for managing products and viewing orders.
 
-### Consumatorul
-- va putea viziona produsele (hainele)
-- va putea adăuga produse în coș
-- va putea vizualiza coșul
-- va putea modifica coșul:
-  - schimbarea cantității
-  - ștergerea unui produs
-- va putea trimite comanda (fără detalii de plată)
+---
 
-### Adminul
-- va putea adăuga produse în stoc
-- va putea administra comenzile
-- va putea accepta comenzile prin apăsarea butonului **ACCEPT COMANDA**
+## Project Structure
+
+- **FUNCTIONAL/** – functional requirements (Iterations)
+- **NON-FUNCTIONAL/** – non-functional requirements
+- **USE CASE/** – use case diagram, class diagram, and use case descriptions
+- **VIEW/** – UI: home page, cart page, admin page
+
+---
+
+## Main Functionalities
+
+- User authentication (login/logout)
+- View available products
+- Add products to cart
+- Modify cart (update quantity / remove products)
+- Place order (updates stock)
+- Admin can add products
+- Admin can view orders and receive notifications
