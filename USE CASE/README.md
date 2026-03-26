@@ -7,3 +7,8 @@
 # Use Case Diagram
 
 ![Use Case Diagram](./UseCaseDiagram.png)
+
+# Use Cases
+
+The detailed use case descriptions are available here:  
+[UseCaseTable.odt](./Use case.odt)
