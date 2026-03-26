@@ -1,33 +1,33 @@
+FUNCTIONALITIES
 
-FUNCTIONALITATI
+ITERATION 1:
 
--ITERATIA 1:
+1. User Authentication
+The user can log into the application as a consumer or admin and can also log out of the system. Depending on the role, the system will display the appropriate interface.
 
-1. Autentificare utilizator
-   Utilizatorul se poate autentifica in aplicatie ca consumator sau admin. In functie de rol, sistemul va afisa interfata corespunzatoare.
-
-2. Vizualizare produse
-   Consumatorul poate vedea toate hainele disponibile in magazin impreuna cu detalii precum nume, categorie, pret si stock.
-
-
--ITERATIA 2:
-3. Adaugare produs in cos
-   Consumatorul poate selecta o haina si o poate adauga in cosul de cumparaturi.
-
-4.Vizionarea produselor din cos
-   Consumatorul poate vedea toate hainele adaugate in cos (view cos).
-
-5. Modificare cos
-   Consumatorul poate modifica cantitatea unui produs din cos sau poate elimina un produs din cos.
+2. View Products
+The consumer can view all available clothes in the store, including details such as name, category, price, and stock.
 
 
--ITERATIA 3:
-6. Trimitere comanda
-   Consumatorul poate trimite comanda cu produsele din cos => stock-ul se modifica. 
+ITERATION 2:
 
-7. Adauga produse in stock
-	Adminul adauga produse in stock: numele, categorie, detalii, pret
+3. Add Product to Cart
+The consumer can select a product and add it to the shopping cart.
 
-8. Administrare comanda 
-   Adminul primeste o notificare cu comenzile primite. El poate vedea cine a trimis comanda si ce produse a comandat
+4. View Cart
+The consumer can see all products added to the cart.
 
+5. Modify Cart
+The consumer can change the quantity of a product in the cart or remove a product from the cart.
+
+
+ITERATION 3:
+
+6. Place Order
+The consumer can place an order with the products from the cart, and the stock will be updated.
+
+7. Add Products to Stock
+The admin can add new products to the stock, including name, category, details, and price.
+
+8. Order Management
+The admin receives notifications for new orders and can see who placed the order and what products were ordered.
