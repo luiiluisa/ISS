@@ -23,37 +23,11 @@ FUNCTIONALITATI
 
 -ITERATIA 3:
 6. Trimitere comanda
-   Consumatorul poate trimite comanda cu produsele din cos. Comanda este trimisa catre admin pentru aprobare.
-
+   Consumatorul poate trimite comanda cu produsele din cos => stock-ul se modifica. 
 
 7. Adauga produse in stock
 	Adminul adauga produse in stock: numele, categorie, detalii, pret
 
 8. Administrare comanda 
-   Adminul primeste notificare pentru o comanda noua, poate vizualiza produsele comandate si poate aproba comanda. Dupa aprobare, stock-ul produselor se actualizeaza.
+   Adminul primeste o notificare cu comenzile primite. El poate vedea cine a trimis comanda si ce produse a comandat
 
-
-VIEW
-
-CONSUMATOR
-
-pagina principala (home):
-	-sus in stanga apare numele utilizatorului
-  	-in centru sunt afisate toate hainele disponibile
-  	-fiecare haina are nume, categorie, pret si buton de adaugare in cos
-  	-sus in dreapta apare iconita cu cosul
-
-pagina cos:
-	-sunt afisate toate hainele adaugate in cos
-	-la fiecare produs exista butoane pentru modificarea cantitatii (+ / -)
-  	-exista optiune de stergere produs din cos
-  	-jos apare pretul total al comenzii
-  	-buton TRIMITE COMANDA
-
-ADMIN
-
-pagina admin:
- 	-adminul va vedea toate produsele pe care el le-a publicat
- 	-adminul primeste notificare pentru comanda noua
-  	-adminul poate apasa butonul APROBA COMANDA
-  	-dupa aprobare, sistemul: scade stock-ul produselor 
