@@ -1,22 +1,35 @@
-VIEW
+# View
 
-CONSUMATOR
+## Consumer
 
-pagina principala (home):
-	-sus in stanga apare numele utilizatorului
-  	-in centru sunt afisate toate hainele disponibile
-  	-fiecare haina are nume, categorie, pret si buton de adaugare in cos
-  	-sus in dreapta apare iconita cu cosul
+### Home Page
 
-pagina cos:
-	-sunt afisate toate hainele adaugate in cos
-	-la fiecare produs exista butoane pentru modificarea cantitatii (+ / -)
-  	-exista optiune de stergere produs din cos
-  	-jos apare pretul total al comenzii
-  	-buton TRIMITE COMANDA (stock-ul de modifica)
+![Home Page](./home.png)
 
-ADMIN
+- The username is displayed in the top-left corner  
+- All available products are displayed in the center  
+- Each product includes name, category, price, and an "Add to Cart" button  
+- The cart icon is displayed in the top-right corner  
 
-pagina admin:
- 	-adminul va vedea toate produsele pe care el le-a publicat
- 	-adminul primeste notificare de comanda noua.
+
+### Cart Page
+
+![Cart Page](./cart.png)
+
+- All products added to the cart are displayed  
+- Each product has buttons to modify quantity (+ / -)  
+- There is an option to remove a product from the cart  
+- The total price of the order is displayed at the bottom  
+- A "Place Order" button is available (stock is updated after order)  
+
+
+## Admin
+
+### Admin Page
+
+![Admin Page](./admin_ui_real.png)
+
+- The admin can view all published products  
+- The admin can add new products using the "Add Product" button  
+- The admin receives notifications for new orders  
+- The admin can see who placed the order and what products were ordered  
