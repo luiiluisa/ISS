@@ -8,3 +8,7 @@
 
 ![Use Case Diagram](./UseCaseDiagram.png)
 
+# Conceptual Model Diagram
+
+![Use Case Diagram](./ConceptualModel.png)
+
