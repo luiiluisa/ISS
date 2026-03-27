@@ -9,11 +9,16 @@
 - The username is displayed in the top-left corner  
 - All available products are displayed in the center  
 - Each product includes name, category, price, and an "Add to Cart" button  
-- The cart icon is displayed in the top-right corner  
+- The cart icon is displayed in the top-right corner
+  
+ ---
+ 
+### Product Page
+![Product Page](./ProductPage.png)
 
-
+ ---
+ 
 ### Cart Page
-
 ![Cart Page](./cart.png)
 
 - All products added to the cart are displayed  
