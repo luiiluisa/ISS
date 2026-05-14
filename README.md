@@ -10,6 +10,10 @@ This project represents an online clothing store application where users can bro
 - **NON-FUNCTIONAL/** – non-functional requirements
 - **USE CASE/** – use case diagram, class diagram, and use case descriptions
 - **VIEW/** – UI: home page, cart page, admin page
+- **CODE/** – the code (browser: http://localhost:8080/login.html)
+- **DIAGRAMS/** – 
+
+
 
 ---
 
